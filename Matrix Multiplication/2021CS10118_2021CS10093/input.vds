@@ -1,0 +1,692 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Nov 13 21:24:35 2022
+# Process ID: 15475
+# Current directory: /home/btech/cs1210093/project_5/project_5.runs/synth_1
+# Command line: vivado -log input.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source input.tcl
+# Log file: /home/btech/cs1210093/project_5/project_5.runs/synth_1/input.vds
+# Journal file: /home/btech/cs1210093/project_5/project_5.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source input.tcl -notrace
+Command: synth_design -top input -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15492 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1095.551 ; gain = 173.098 ; free physical = 119 ; free virtual = 15807
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module '\input ' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/input.vhd:79]
+WARNING: [Synth 8-5640] Port 'o1' is missing in component declaration [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/input.vhd:165]
+INFO: [Synth 8-3491] module 'fsm' declared at '/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:36' bound to instance 'lab1' of component 'fsm' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/input.vhd:170]
+INFO: [Synth 8-638] synthesizing module 'fsm' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:50]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:171]
+INFO: [Common 17-14] Message 'Synth 8-312' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3491] module 'dist_mem_gen_0' declared at '/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/realtime/dist_mem_gen_0_stub.v:6' bound to instance 'label_0' of component 'dist_mem_gen_0' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:180]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_0' [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_0' (1#1) [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-3491] module 'dist_mem_gen_1' declared at '/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/realtime/dist_mem_gen_1_stub.v:6' bound to instance 'label_1' of component 'dist_mem_gen_1' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:181]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_1' [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/realtime/dist_mem_gen_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_1' (2#1) [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/realtime/dist_mem_gen_1_stub.v:6]
+INFO: [Synth 8-3491] module 'registe' declared at '/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register.vhd:34' bound to instance 'label_2' of component 'registe' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'registe' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register.vhd:45]
+WARNING: [Synth 8-614] signal 'din' is read in the process but is not in the sensitivity list [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'registe' (3#1) [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register.vhd:45]
+INFO: [Synth 8-3491] module 'registe' declared at '/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register.vhd:34' bound to instance 'label_3' of component 'registe' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:183]
+INFO: [Synth 8-3491] module 'MAC' declared at '/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/MAC.vhd:35' bound to instance 'label_4' of component 'mac' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:184]
+INFO: [Synth 8-638] synthesizing module 'MAC' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/MAC.vhd:46]
+WARNING: [Synth 8-614] signal 'in1' is read in the process but is not in the sensitivity list [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/MAC.vhd:60]
+WARNING: [Synth 8-614] signal 'in2' is read in the process but is not in the sensitivity list [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/MAC.vhd:60]
+WARNING: [Synth 8-614] signal 'prod' is read in the process but is not in the sensitivity list [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/MAC.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'MAC' (4#1) [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/MAC.vhd:46]
+INFO: [Synth 8-3491] module 'register_2' declared at '/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:34' bound to instance 'label_5' of component 'register_2' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'register_2' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:44]
+WARNING: [Synth 8-614] signal 'read' is read in the process but is not in the sensitivity list [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:47]
+WARNING: [Synth 8-614] signal 'din' is read in the process but is not in the sensitivity list [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:47]
+WARNING: [Synth 8-614] signal 'write' is read in the process but is not in the sensitivity list [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:47]
+WARNING: [Synth 8-614] signal 'temp' is read in the process but is not in the sensitivity list [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'register_2' (5#1) [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:44]
+INFO: [Synth 8-3491] module 'dist_mem_gen_2' declared at '/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/realtime/dist_mem_gen_2_stub.v:6' bound to instance 'label_6' of component 'dist_mem_gen_2' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_2' [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/realtime/dist_mem_gen_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_2' (6#1) [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/realtime/dist_mem_gen_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fsm' (7#1) [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:50]
+INFO: [Synth 8-3491] module 'dist_mem_gen_2' declared at '/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/realtime/dist_mem_gen_2_stub.v:6' bound to instance 'lab2' of component 'dist_mem_gen_2' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/input.vhd:171]
+INFO: [Synth 8-3491] module 'main_fun' declared at '/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/main_fun.vhd:62' bound to instance 'lab3' of component 'main_fun' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/input.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'main_fun' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/main_fun.vhd:131]
+INFO: [Synth 8-3491] module 'clock' declared at '/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/clock.vhd:62' bound to instance 'lab1' of component 'clock' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/main_fun.vhd:184]
+INFO: [Synth 8-638] synthesizing module 'clock' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/clock.vhd:85]
+WARNING: [Synth 8-614] signal 'tmp1' is read in the process but is not in the sensitivity list [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/clock.vhd:97]
+WARNING: [Synth 8-614] signal 'tmp2' is read in the process but is not in the sensitivity list [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/clock.vhd:122]
+INFO: [Synth 8-256] done synthesizing module 'clock' (8#1) [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/clock.vhd:85]
+INFO: [Synth 8-3491] module 'seven_segment' declared at '/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/seven_segment.vhd:62' bound to instance 'lab2' of component 'seven_segment' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/main_fun.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'seven_segment' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/seven_segment.vhd:92]
+INFO: [Synth 8-256] done synthesizing module 'seven_segment' (9#1) [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/seven_segment.vhd:92]
+INFO: [Synth 8-256] done synthesizing module 'main_fun' (10#1) [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/main_fun.vhd:131]
+INFO: [Synth 8-256] done synthesizing module '\input ' (11#1) [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/input.vhd:79]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1148.020 ; gain = 225.566 ; free physical = 103 ; free virtual = 15754
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1148.020 ; gain = 225.566 ; free physical = 102 ; free virtual = 15753
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'dist_mem_gen_0' instantiated as 'lab1/label_0' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:180]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'dist_mem_gen_1' instantiated as 'lab1/label_1' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:181]
+WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'dist_mem_gen_2' instantiated as 'lab1/label_6'. 2 instances of this cell are unresolved black boxes. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/fsm.vhd:186]
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/dcp/dist_mem_gen_1_in_context.xdc] for cell 'lab1/label_1'
+Finished Parsing XDC File [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/dcp/dist_mem_gen_1_in_context.xdc] for cell 'lab1/label_1'
+Parsing XDC File [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/dcp_2/dist_mem_gen_2_in_context.xdc] for cell 'lab1/label_6'
+Finished Parsing XDC File [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/dcp_2/dist_mem_gen_2_in_context.xdc] for cell 'lab1/label_6'
+Parsing XDC File [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/dcp_2/dist_mem_gen_2_in_context.xdc] for cell 'lab2'
+Finished Parsing XDC File [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/dcp_2/dist_mem_gen_2_in_context.xdc] for cell 'lab2'
+Parsing XDC File [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/dcp_3/dist_mem_gen_1_in_context.xdc] for cell 'lab1/label_0'
+Finished Parsing XDC File [/home/btech/cs1210093/project_5/project_5.runs/synth_1/.Xil/Vivado-15475-indus/dcp_3/dist_mem_gen_1_in_context.xdc] for cell 'lab1/label_0'
+Parsing XDC File [/home/btech/cs1210093/project_5/project_5.srcs/constrs_1/imports/Desktop/basys3.xdc]
+Finished Parsing XDC File [/home/btech/cs1210093/project_5/project_5.srcs/constrs_1/imports/Desktop/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/btech/cs1210093/project_5/project_5.srcs/constrs_1/imports/Desktop/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/\input _propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/\input _propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/btech/cs1210093/project_5/project_5.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/btech/cs1210093/project_5/project_5.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1499.750 ; gain = 0.000 ; free physical = 111 ; free virtual = 15600
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'lab2' at clock pin 'clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'lab1/label_6' at clock pin 'clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:36 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 112 ; free virtual = 15601
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:36 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 111 ; free virtual = 15601
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for lab1/label_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:36 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 111 ; free virtual = 15601
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'fsm'
+INFO: [Synth 8-5545] ROM "state4" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "reg_3_cmd" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "reg_1_cmd" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mac_cmd" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ram_cmd" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "int1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "tmp1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "int2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "tmp2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'dout_reg' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register.vhd:52]
+WARNING: [Synth 8-327] inferring latch for variable 'prod_reg' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/MAC.vhd:64]
+WARNING: [Synth 8-327] inferring latch for variable 'temp_reg' [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:51]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               off_state |                           000001 |                              000
+               rom_state |                           000010 |                              001
+               reg_state |                           000100 |                              010
+               mac_state |                           001000 |                              011
+             reg_3_state |                           010000 |                              100
+               ram_state |                           100000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:37 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 103 ; free virtual = 15594
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   3 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module registe 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module MAC 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module register_2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module fsm 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+Module clock 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "lab1/state4" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "lab1/state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lab1/state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lab1/state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lab1/state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lab1/state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "lab3/lab1/int1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "lab3/lab1/tmp1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "lab3/lab1/int2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "lab3/lab1/tmp2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:39 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 128 ; free virtual = 15557
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:45 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 110 ; free virtual = 15527
+---------------------------------------------------------------------------------
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry /O[0] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry /S[0] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__1 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__1 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_32 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_32 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry /O[0] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[0] -to O[0] i_1/\lab1/label_4/plusOp_carry "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry /O[1] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry /S[1] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__4 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__4 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_33 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_33 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry /O[1] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[1] -to O[1] i_1/\lab1/label_4/plusOp_carry "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry /O[2] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry /S[2] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__7 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__7 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_34 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_34 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry /O[2] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[2] -to O[2] i_1/\lab1/label_4/plusOp_carry "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry /O[3] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry /S[3] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__10 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__10 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_35 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_35 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry /O[3] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[3] -to O[3] i_1/\lab1/label_4/plusOp_carry "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__0 /O[0] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__0 /S[0] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__13 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__13 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_36 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_36 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__0 /O[0] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[0] -to O[0] i_1/\lab1/label_4/plusOp_carry__0 "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__0 /O[1] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__0 /S[1] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__16 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__16 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_37 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_37 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__0 /O[1] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[1] -to O[1] i_1/\lab1/label_4/plusOp_carry__0 "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__0 /O[2] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__0 /S[2] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__19 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__19 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_38 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_38 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__0 /O[2] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[2] -to O[2] i_1/\lab1/label_4/plusOp_carry__0 "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__0 /O[3] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__0 /S[3] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__22 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__22 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_39 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_39 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__0 /O[3] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[3] -to O[3] i_1/\lab1/label_4/plusOp_carry__0 "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__1 /O[0] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__1 /S[0] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__25 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__25 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_40 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_40 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__1 /O[0] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[0] -to O[0] i_1/\lab1/label_4/plusOp_carry__1 "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__1 /O[1] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__1 /S[1] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__28 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__28 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_41 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_41 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__1 /O[1] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[1] -to O[1] i_1/\lab1/label_4/plusOp_carry__1 "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__1 /O[2] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__1 /S[2] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__31 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__31 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_42 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_42 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__1 /O[2] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[2] -to O[2] i_1/\lab1/label_4/plusOp_carry__1 "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__1 /O[3] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__1 /S[3] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__34 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__34 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_43 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_43 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__1 /O[3] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[3] -to O[3] i_1/\lab1/label_4/plusOp_carry__1 "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__2 /O[0] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__2 /S[0] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__37 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__37 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_44 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_44 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__2 /O[0] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[0] -to O[0] i_1/\lab1/label_4/plusOp_carry__2 "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__2 /O[1] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__2 /S[1] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__40 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__40 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_45 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_45 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__2 /O[1] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[1] -to O[1] i_1/\lab1/label_4/plusOp_carry__2 "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__2 /O[2] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__2 /S[2] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__43 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__43 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_46 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_46 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__2 /O[2] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[2] -to O[2] i_1/\lab1/label_4/plusOp_carry__2 "
+Found timing loop:
+     0: i_1/\lab1/label_4/plusOp_carry__2 /O[3] (CARRY4)
+     1: i_1/\lab1/label_4/plusOp_carry__2 /S[3] (CARRY4)
+     2: i_1/\lab1/label_4/plusOp__45 /O (GATE_2_6_XOR)
+     3: i_1/\lab1/label_4/plusOp__45 /I0 (GATE_2_6_XOR)
+     4: i_1/\lab1/label_4/i_47 /O (GATE_2_2)
+     5: i_1/\lab1/label_4/i_47 /I0 (GATE_2_2)
+     6: i_1/\lab1/label_4/plusOp_carry__2 /O[3] (CARRY4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:50]
+Inferred a: "set_disable_timing -from S[3] -to O[3] i_1/\lab1/label_4/plusOp_carry__2 "
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:47 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 103 ; free virtual = 15495
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:47 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 103 ; free virtual = 15478
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-5396] Clock pin G has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register.vhd:52]
+WARNING: [Synth 8-5396] Clock pin G has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/MAC.vhd:64]
+WARNING: [Synth 8-5396] Clock pin G has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/btech/cs1210093/project_5/project_5.srcs/sources_1/new/register_2.vhd:51]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:47 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 103 ; free virtual = 15478
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:47 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 103 ; free virtual = 15478
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:47 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 103 ; free virtual = 15478
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:47 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 103 ; free virtual = 15478
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:47 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 103 ; free virtual = 15478
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:47 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 103 ; free virtual = 15478
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |dist_mem_gen_2 |         2|
+|2     |dist_mem_gen_0 |         1|
+|3     |dist_mem_gen_1 |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |dist_mem_gen_0    |     1|
+|2     |dist_mem_gen_1    |     1|
+|3     |dist_mem_gen_2    |     1|
+|4     |dist_mem_gen_2__1 |     1|
+|5     |BUFG              |     1|
+|6     |CARRY4            |    93|
+|7     |LUT1              |   132|
+|8     |LUT2              |   117|
+|9     |LUT3              |   132|
+|10    |LUT4              |    50|
+|11    |LUT5              |    86|
+|12    |LUT6              |   171|
+|13    |FDRE              |   104|
+|14    |LD                |    48|
+|15    |IBUF              |    15|
+|16    |OBUF              |    12|
++------+------------------+------+
+
+Report Instance Areas: 
++------+------------+-----------+------+
+|      |Instance    |Module     |Cells |
++------+------------+-----------+------+
+|1     |top         |           |  1009|
+|2     |  lab1      |fsm        |   784|
+|3     |    label_2 |registe    |    32|
+|4     |    label_3 |registe_0  |    38|
+|5     |    label_4 |MAC        |   111|
+|6     |    label_5 |register_2 |    16|
+|7     |  lab3      |main_fun   |   181|
+|8     |    lab1    |clock      |   181|
++------+------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:47 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 103 ; free virtual = 15478
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 16 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1499.750 ; gain = 117.469 ; free physical = 103 ; free virtual = 15478
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:47 . Memory (MB): peak = 1499.750 ; gain = 577.297 ; free physical = 103 ; free virtual = 15478
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 156 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 48 instances were transformed.
+  LD => LDCE: 48 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+83 Infos, 122 Warnings, 16 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:44 . Memory (MB): peak = 1524.164 ; gain = 510.195 ; free physical = 101 ; free virtual = 15480
+INFO: [Common 17-1381] The checkpoint '/home/btech/cs1210093/project_5/project_5.runs/synth_1/input.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.68 . Memory (MB): peak = 1548.176 ; gain = 0.000 ; free physical = 125 ; free virtual = 15477
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 13 21:25:29 2022...
