@@ -1,0 +1,14 @@
+---
+:id: 130617198
+:submitters:
+- :name: Piya Bundela
+  :email: cs1210118@cse.iitd.ac.in
+- :name: Aastha Rajani
+  :email: cs1210093@iitd.ac.in
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2022-08-21 13:53:23.178424000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2022-08-21 06:53:23.178424000 Z
+:status: processed
+:score: 21.0
